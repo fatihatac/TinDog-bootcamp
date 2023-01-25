@@ -43,7 +43,7 @@ h1{
 
 /*Download Buttons*/
 
-.download-buttons{
+.download-button{
     margin: 5% 3% 5% 0 ;
 }
 /* title image*/
@@ -52,6 +52,7 @@ h1{
     width: 60%;
     transform: rotate(25deg);
 }
+
 
 
 /* features*/
