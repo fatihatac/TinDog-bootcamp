@@ -8,7 +8,7 @@ color: white;
 }
 
 .container-fluid{
-   padding: 3% 15%;
+   padding: 3% 15% 10%;
 }
 
 
@@ -62,16 +62,25 @@ p{
 }
 /* title image*/
 
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
+.title-image-div{
+    position: relative;
 }
+
+.title-image{
+    max-width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
 
 
 
 /* features*/
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 
@@ -117,4 +126,49 @@ p{
 }
 .pricing-column{
     padding: 3% 2%;
+}
+
+#cta{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+.cta-text{
+    font-size: 3.5rem;
+}
+#footer{
+    text-align: center;
+    padding: 5% 10%;
+}
+.footer-logo{
+    padding: 10px;
+}
+.copyright{
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+@media (max-width: 1086px) {
+
+    #title{
+  
+      text-align: center;
+  
+    }
+  
+    .title-image{
+  
+      position: static;
+  
+      transform: rotate(0);
+  
+      width: 60%
+  
+    }
+  
 }
